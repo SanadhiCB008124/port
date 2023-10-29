@@ -16,7 +16,7 @@ const Hero = () => {
     const timerId = setInterval(() => {
       // Use a functional state update to correctly increment the count
       setCount(count => count + 1);
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(timerId);
   }, []);
@@ -27,12 +27,11 @@ const Hero = () => {
   const text = textArray[count % textArray.length];
 
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}   `}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} bg-gray-gradient   `}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 bg-gray-gradient `}>
-    
-
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-gradient text-white ss:leading-[100.8px] leading-[75px]">
+       
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-gradient text-white ss:leading-[100.8px] leading-[75px] ml-60">
             {text}
             <br className="sm:block hidden" />{" "}
           </h1>

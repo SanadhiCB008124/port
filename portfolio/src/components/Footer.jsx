@@ -4,13 +4,12 @@ import { socialMedia } from "../constants";
 
 const Footer = () => (
   
-  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} bg-black w-full flex-col`}>
   
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
 
     <div className="">
-    <p className="text-white text-lg">connect with us</p>
+    <p className="text-white text-lg mb-4">connect with us</p>
     </div> 
       <div className="flex flex-row  md:mt-0 mt-6">
         {socialMedia.map((social, index) => (
@@ -25,7 +24,7 @@ const Footer = () => (
           />
         ))}
       </div>
-    </div>
+
   </section>
 
 );

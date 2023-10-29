@@ -8,30 +8,18 @@ import Products from "./components/Products";
 
 
 const App = () => (
-  <div className="bg-gray-gradient w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+  <div className=" w-full overflow-hidden scroll-smooth ">
   
-      
-      
-        <Clients />
-        <Products />
-        <Us />
-        <Footer />
-      </div>
-    </div>
+    <Navbar />
+
+    <Hero />
+    
+    <Products />
+       
+       <Us />
+  
+       <Clients />
+    <Footer />
   </div>
 );
 

@@ -2,11 +2,11 @@ import { clients } from "../constants";
 import styles from "../style";
 
 const Clients = () => (
-    <>
-       <h3 id="clients" className={`${styles.heading2} `}>Our Sponsors</h3>
+    <div className="bg-orange-300 ">
+       <h3 id="clients" className={`${styles.heading2} pl-10  mt-4`}>OUR SPONSORS</h3>
 
 
-  <section className={`${styles.flexCenter} my-4 mb-10`}>
+  <section className={`${styles.flexCenter} pb-10`}>
     <div className={`${styles.flexCenter} flex-wrap w-full`}>
       {clients.map((client) => (
         <div key={client.id} className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] m-5`}>
@@ -15,7 +15,7 @@ const Clients = () => (
       ))}
     </div>
   </section>
-  </>
+  </div>
 );
 
 export default Clients;

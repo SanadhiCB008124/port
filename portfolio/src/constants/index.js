@@ -1,8 +1,7 @@
 
 import  facebook from "../assets/facebook.svg";
 import  instagram from "../assets/instagram.svg";
-import  linkedin from "../assets/linkedin.svg";
-import  twitter from "../assets/twitter.svg";
+
 import  dialog from "../assets/dialog.jpg";
 
 
@@ -11,10 +10,7 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  
   {
     id: "products",
     title: "Services",
@@ -23,6 +19,10 @@ export const navLinks = [
   {
     id: "About-us",
     title: "About us",
+  },
+  {
+    id: "clients",
+    title: "Clients",
   },
   {
     id: "contact",

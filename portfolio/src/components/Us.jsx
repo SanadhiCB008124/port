@@ -1,4 +1,8 @@
 import styles from "../style";
+import aadil from '../assets/aadil.jpeg';
+import hirundya from '../assets/hirundya.jpeg';
+import yasiru from '../assets/yasiru.jpeg'
+import sanadhi from '../assets/sanadhi.jpeg'
 
 const Us = () => (
     <div className="">
@@ -13,7 +17,7 @@ const Us = () => (
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              src={aadil}
               alt="photo"
             />
           </div>
@@ -29,7 +33,7 @@ const Us = () => (
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              src={hirundya}
               alt="photo"
             />
           </div>
@@ -46,7 +50,7 @@ const Us = () => (
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              src={yasiru}
               alt="photo"
             />
           </div>
@@ -62,7 +66,7 @@ const Us = () => (
           <div className="mb-8">
             <img
               className="object-center object-cover rounded-full h-36 w-36"
-              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+              src={sanadhi}
               alt="photo"
             />
           </div>

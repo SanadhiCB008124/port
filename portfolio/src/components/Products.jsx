@@ -1,6 +1,7 @@
 import styles from "../style";
 import image from '../assets/games.png';
 import image2 from '../assets/web.png';
+import image3 from '../assets/mobile.png';
 const Products = () => (
     <div className="bg-red-300 w-full">
     <div >
@@ -11,15 +12,15 @@ const Products = () => (
   <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
 
  <div className="w-full bg-black rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">          
- <div className="mb-8">
+ <div className="mb-8 ">
          <img
-           className="object-center object-cover rounded-full h-36 w-36"
+           className="object-center object-cover rounded-full h-36 w-36 "
            src={image}
            alt="photo"
          />
        </div>
        <div className="text-center">
-         <p className="text-xl text-red-800 font-bold mb-2">Game Development</p>
+         <p className="text-xl text-red-800 font-bold mb-2 ">Game Development</p>
        </div>
      </div>
 
@@ -31,7 +32,7 @@ const Products = () => (
  <div className="w-full bg-black rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">          
  <div className="mb-8">
          <img
-           className="object-center object-cover rounded-full h-36 w-36"
+           className="object-center object-cover rounded-full h-36 w-36 "
            src={image2}
            alt="photo"
          />
@@ -51,8 +52,8 @@ const Products = () => (
  <div className="w-full bg-black rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">         
   <div className="mb-8">
          <img
-           className="object-center object-cover rounded-full h-36 w-36"
-           src={image}
+           className="object-center object-cover h-36 w-38"
+           src={image3}
            alt="photo"
          />
        </div>

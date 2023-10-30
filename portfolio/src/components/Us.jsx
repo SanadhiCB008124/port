@@ -7,7 +7,7 @@ const Us = () => (
     </div>
 
 
- <div className="flex flex-row flex-wrap  gap-10 m-10 ">
+ <div className="flex flex-row flex-wrap  m-10 ">
    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12 ">
       <div className="w-full bg-blue rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">          
           <div className="mb-8">

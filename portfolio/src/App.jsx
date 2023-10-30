@@ -6,22 +6,28 @@ import Us from "./components/Us";
 import Footer from "./components/Footer";
 import Products from "./components/Products";
 import React from "react";
+import { animated, useSpring } from '@react-spring/web'
 
-const App = () => (
- 
-  <div className=" w-full bg-purple overflow-hidden scroll-smooth ">
- 
-    <Navbar />
+const App = () => {
+  const styles1 = useSpring({
+    from: {
+      opacity: 0
+    },
+    to: {
+      opacity: 1
+    }
+  });
 
-    <Hero />
-    
-    <Products />
-       
-       <Us />
-  
-       <Clients />
-    <Footer />
-  </div>
-);
+  return (
+    <animated.div style={styles1} className="w-full bg-purple overflow-hidden scroll-smooth">
+      <Navbar />
+      <Hero />
+      <Products />
+      <Us />
+      <Clients />
+      <Footer />
+    </animated.div>
+  );
+};
 
 export default App;

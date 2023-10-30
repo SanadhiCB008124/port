@@ -1,6 +1,6 @@
 import { useState } from "react";
 import close from "../assets/close.svg";
-import logo from "../assets/logo.svg";
+import logo from "../assets/image4.png";
 import menu from "../assets/menu.svg";
 import { navLinks } from "../constants";
 

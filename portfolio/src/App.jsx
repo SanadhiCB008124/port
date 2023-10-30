@@ -5,11 +5,12 @@ import Clients from "./components/Clients";
 import Us from "./components/Us";
 import Footer from "./components/Footer";
 import Products from "./components/Products";
-
+import React from "react";
 
 const App = () => (
-  <div className=" w-full overflow-hidden scroll-smooth ">
-  
+ 
+  <div className=" w-full bg-purple overflow-hidden scroll-smooth ">
+ 
     <Navbar />
 
     <Hero />

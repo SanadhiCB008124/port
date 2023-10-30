@@ -1,7 +1,7 @@
 import styles from "../style";
 import React, { useEffect, useState } from "react";
 
-import image from "../assets/600.jpg";
+import image from "../assets/header.png";
 import bannerImg2 from "../assets/lap.png";
 import bannerImg3 from "../assets/image4.png";
 
@@ -27,11 +27,11 @@ const Hero = () => {
   const text = textArray[count % textArray.length];
 
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} bg-gray-gradient   `}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 bg-gray-gradient `}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}  `}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}>
         <div className="flex flex-row justify-between items-center w-full">
        
-          <h1 className="flex-1 font-poppins font-semibold text-[62px] text-gradient text-white  ml-60">
+          <h1 className="flex-1 font-poppins font-semibold text-[62px]  text-white  ml-40">
             {text}
             <br className="sm:block hidden" />{" "}
           </h1>
@@ -40,7 +40,7 @@ const Hero = () => {
    
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div className={`flex ${styles.flexCenter} m-5 md:my-0 mr-10 rounded-full bg-purple-off my-10 relative`}>
         <img src={image} alt="image" className="w-[600px] h-[600px] relative z-[5]" />
 
      

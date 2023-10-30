@@ -2,8 +2,8 @@ import { clients } from "../constants";
 import styles from "../style";
 
 const Clients = () => (
-    <div className="bg-orange-300 ">
-       <h3 id="clients" className={`${styles.heading2} pl-10  mt-4`}>OUR SPONSORS</h3>
+    <div className="">
+       <h3 id="clients" className={`${styles.heading2} pl-10 text-white  mt-4`}>OUR SPONSORS</h3>
 
 
   <section className={`${styles.flexCenter} pb-10`}>

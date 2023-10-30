@@ -35,6 +35,22 @@
   
 }
 
+.bg-purple{
+  background-color: #37306B;
+}
+.bg-blue{
+  background-color: #0C0F2B;
+}
+.bg-purple-off{
+  background-color: #7F56F4;
+}
+.text-purple-off{
+color: #7F56F4;
+}
+.border{
+  border: 2px solid #F5F7F8;
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,

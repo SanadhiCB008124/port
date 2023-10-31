@@ -22,7 +22,7 @@ const Us = () => (
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-white font-bold mb-2">Sanadhi Karunasekara</p>
+            <p className="text-xl text-white font-bold mb-2"> Aadil </p>
             <p className="text-base text-purple-off  font-normal">Software Engineer</p>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Us = () => (
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-white font-bold mb-2">Sanadhi Karunasekara</p>
+            <p className="text-xl text-white font-bold mb-2">Hirundya</p>
             <p className="text-base text-purple-off font-normal">Software Engineer</p>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Us = () => (
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-white font-bold mb-2">Sanadhi Karunasekara</p>
+            <p className="text-xl text-white font-bold mb-2">Yasiru</p>
             <p className="text-base text-purple-off  font-normal">Software Engineer</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Us = () => (
             />
           </div>
           <div className="text-center">
-            <p className="text-xl text-white font-bold mb-2">Sanadhi Karunasekara</p>
+            <p className="text-xl text-white font-bold mb-2">Sanadhi </p>
             <p className="text-base text-purple-off font-normal">Software Engineer</p>
           </div>
         </div>

@@ -5,13 +5,6 @@ import image3 from '../assets/mobile.png';
 import { useSpring, animated } from '@react-spring/web';
 
 const Products = () => {
-  const springs = useSpring({
-    from: { x: 0 },
-    to: { x: 100 },
-    reverse: true,
-    
- 
-  });
 
   return (
     <div className="w-full">
@@ -22,7 +15,7 @@ const Products = () => {
       </div>
       <div className="flex flex-row flex-wrap ">
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-          <animated.div style={springs}>
+          <div >
             <div className="w-full bg-blue rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">
               <div className="mb-8 ">
                 <img
@@ -35,11 +28,11 @@ const Products = () => {
                 <p className="text-xl text-white font-bold mb-2 ">Game Development</p>
               </div>
             </div>
-          </animated.div>
+          </div>
         </section>
 
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-          <animated.div style={springs}>
+          <div >
             <div className="w-full bg-blue rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">
               <div className="mb-8">
                 <img
@@ -52,11 +45,11 @@ const Products = () => {
                 <p className="text-xl text-white font-bold mb-2">Web Development</p>
               </div>
             </div>
-          </animated.div>
+          </div>
         </section>
 
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-          <animated.div style={springs}>
+          <div >
             <div className="w-full bg-blue rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">
               <div className="mb-8">
                 <img
@@ -69,7 +62,7 @@ const Products = () => {
                 <p className="text-xl text-white font-bold mb-2">Mobile Development</p>
               </div>
             </div>
-          </animated.div>
+          </div>
         </section>
       </div>
     </div>

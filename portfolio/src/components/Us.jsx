@@ -11,7 +11,7 @@ const Us = () => (
     </div>
 
 
- <div className="flex flex-row flex-wrap  m-10 ">
+ <div className="flex flex-row  flex-wrap  m-10 ">
    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12 ">
       <div className="w-full bg-blue rounded-lg p-12 flex flex-col justify-center items-center transform transition-transform hover:scale-105">          
           <div className="mb-8">
@@ -23,7 +23,8 @@ const Us = () => (
           </div>
           <div className="text-center">
             <p className="text-xl text-white font-bold mb-2"> Aadil </p>
-            <p className="text-base text-purple-off  font-normal">Software Engineer</p>
+            <p className="text-base text-purple-off  font-normal">Project Manager / Developer</p>
+            
           </div>
         </div>
     
@@ -39,7 +40,7 @@ const Us = () => (
           </div>
           <div className="text-center">
             <p className="text-xl text-white font-bold mb-2">Hirundya</p>
-            <p className="text-base text-purple-off font-normal">Software Engineer</p>
+            <p className="text-base text-purple-off font-normal">Game Producer / Developer</p>
           </div>
         </div>
     
@@ -56,7 +57,7 @@ const Us = () => (
           </div>
           <div className="text-center">
             <p className="text-xl text-white font-bold mb-2">Yasiru</p>
-            <p className="text-base text-purple-off  font-normal">Software Engineer</p>
+            <p className="text-base text-purple-off  font-normal">Game Artist / Developer</p>
           </div>
         </div>
     
@@ -72,7 +73,8 @@ const Us = () => (
           </div>
           <div className="text-center">
             <p className="text-xl text-white font-bold mb-2">Sanadhi </p>
-            <p className="text-base text-purple-off font-normal">Software Engineer</p>
+            <p className="text-base text-purple-off font-normal">Game Programmer / Developer </p>
+           
           </div>
         </div>
     

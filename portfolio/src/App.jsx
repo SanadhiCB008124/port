@@ -26,7 +26,6 @@ const App = () => {
       <Hero />
       <Products />
       <Us />
-      <Clients />
       <Footer />
     </animated.div>
   );

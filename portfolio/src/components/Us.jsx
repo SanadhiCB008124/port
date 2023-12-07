@@ -57,7 +57,7 @@ const Us = () => (
           </div>
           <div className="text-center">
             <p className="text-xl text-white font-bold mb-2">Yasiru</p>
-            <p className="text-base text-purple-off  font-normal">Game Artist / Developer</p>
+            <p className="text-base text-purple-off  font-normal">Game Artist / Game Programmer / Developer</p>
           </div>
         </div>
     
